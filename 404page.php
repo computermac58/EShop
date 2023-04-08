@@ -8,17 +8,15 @@
     <link rel="stylesheet" href="style.css"  />
 
     <title>E Shop</title>
-
+<script>
+    setTimeout(() => {
+        window.location.href='index.php'
+    }, 5000);
+</script>
 </head>
 <body>
-    <h3>HOME PAGE</h3>
-    <section id="main">
-        body sections
-    </section>
-
-    <section id="footer">
-
-    </section>
+        <h2>oops! not available</h2>
+   
 <!-- to link external js files -->
     <script src="style.js"></script>
 
