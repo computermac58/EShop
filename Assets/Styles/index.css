@@ -34,6 +34,21 @@ background: linear-gradient(90deg, rgba(94,96,206,1) 4%, rgba(78,168,222,1) 39%,
     font-family: 'Poppins', sans-serif;
 }
 
-/* .landingPageImage{
-    height: 200px;
-} */
+.container{
+    position: relative;
+
+}
+.container .landingBtn1{
+    position: absolute;
+    bottom: 100px;
+    left: 91px;
+}
+
+.container .landingBtn2{
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+}
+
+
+    
