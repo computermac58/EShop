@@ -28,6 +28,12 @@ background: linear-gradient(90deg, rgba(94,96,206,1) 4%, rgba(78,168,222,1) 39%,
 .list-item{
     list-style: none;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.list-item a{
+    text-decoration: none;
+    color: black;
+
 }
 
 .landingBtn{
@@ -38,17 +44,25 @@ background: linear-gradient(90deg, rgba(94,96,206,1) 4%, rgba(78,168,222,1) 39%,
     position: relative;
 
 }
-.container .landingBtn1{
+.btn-container{
     position: absolute;
+    left: 90px;
     bottom: 100px;
-    left: 91px;
 }
 
-.container .landingBtn2{
-    position: absolute;
-    bottom: 100px;
-    left: 200px;
-}
+/* .carousel-inner {
+    padding: 1em;
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+} */
 
 
     

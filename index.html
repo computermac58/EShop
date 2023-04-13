@@ -29,28 +29,171 @@
         <ul
           class="list-group justify-content-evenly col-8 d-flex flex-row align-items-center"
         >
-          <li class="list-item">Home</li>
-          <li class="list-item">About Us</li>
-          <li class="list-item">Our Team</li>
-          <li class="list-item">Contact Us</li>
+          <li class="list-item"><a href="#">Home</a></li>
+          <li class="list-item"><a href="#">About Us</a></li>
+          <li class="list-item"><a href="#">Our Team</a></li>
+          <li class="list-item"><a href="#">Contact Us</a></li>
         </ul>
       </div>
-
-      <div class="d-flex flex-row justify-content-evenly my-3 py-5">
-        <div class="container">
-          <img src="./Assets/Images/LandingPage Image1.png" class="img-fluid">
-          <div class="d-flex flex-row justify-content-between col-2 my-2">
-            <button type="button" class="landingBtn1 btn btn-dark px-3 py-1 rounded border-2">
-              Login
-            </button>
-            <button type="button" class="landingBtn2 btn btn-outline-dark border-2 px-3 py-1 rounded">
-              Signup
-            </button>
+      <!-- Body Content Area -->
+      <div
+        class="d-flex flex-row justify-content-evenly border border-info my-4 py-5"
+      >
+        <div class="border border-2 border-danger">
+          <div class="container w-100">
+            <img
+              src="./Assets/Images/LandingPage Image1.png"
+              class="img-fluid"
+            />
+            <div
+              class="btn-container d-flex flex-row gap-3 justify-content-between"
+            >
+              <button
+                type="button"
+                class="btn btn-dark px-3 py-1 rounded border-2 shadow col-2 w-auto"
+              >
+                Login
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-dark border-2 px-3 py-1 rounded shadow col-2 w-auto"
+              >
+                Signup
+              </button>
+            </div>
           </div>
-          <hr class="my-3">
+          <hr class="my-5" />
+
+          <!-- Product Cards -->
+          <div class="my-5">
+            <h2 class="text-center my-3">Our Products</h2>
+
+            <!-- Parent Carousel Container -->
+            <div
+              id="crouselExampleControls"
+              class="carousel slide row d-flex flex-row border border-2 border-success justify-content-evenly my-4"
+              data-ride="carousel"
+            >
+              <!-- Inner Carousel Container -->
+              <div class="carousel-inner border border-2 border-primary">
+                <!-- Carousel Item 1 -->
+                <div class="carousel-item active border border-2 border-danger">
+                  <div
+                    class="d-block card header border border-2 border-success"
+                    style="width: 18rem; background: none"
+                  >
+                    <img
+                      class="d-block card-img-top rounded-0 w-100"
+                      src="./Assets/Images/susana-coutinho-20ll1TJWASk-unsplash.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Kids Wear</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Carousel Item 2 -->
+                <div class="carousel-item border border-2 border-warning">
+                  <div
+                    class="d-block card header"
+                    style="width: 18rem; background: none"
+                  >
+                    <img
+                      class="d-block card-img-top rounded-0 w-100"
+                      src="./Assets/Images/christopher-gower-_aXa21cf7rY-unsplash.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Electronics</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Carousel Item 3 -->
+                <div class="carousel-item">
+                  <div
+                    class="d-block card header"
+                    style="width: 18rem; background: none"
+                  >
+                    <img
+                      class="d-block card-img-top rounded-0 w-100"
+                      src="./Assets//Images/freestocks-_3Q3tsJ01nc-unsplash.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Women Western Wear</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Carousel Item 4 -->
+                <div class="carousel-item">
+                  <div
+                    class="d-block card header"
+                    style="width: 18rem; background: none"
+                  >
+                    <img
+                      class="d-block card-img-top rounded-0 w-100"
+                      src="./Assets//Images/freestocks-_3Q3tsJ01nc-unsplash.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Ethnic Men's Wear</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Carousel Item 5 -->
+                <div class="carousel-item">
+                  <div
+                    class="d-block card header"
+                    style="width: 18rem; background: none"
+                  >
+                    <img
+                      class="card-img-top rounded-0 w-100"
+                      src="./Assets//Images/freestocks-_3Q3tsJ01nc-unsplash.jpg"
+                      alt="Card image cap"
+                    />
+                    <div class="card-body">
+                      <p class="card-text">Ethnic Women's Wear</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- End of Inner carousel Container -->
+              </div>
+
+              <!-- Slider Controls -->
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-  
 
     <!-- <section id="footer"></section> -->
 
